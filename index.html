@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Turn your drawing into a drag-and-drop image just in no time!">
+  <meta name="author" content="Gary Hsiao">
+  <title>Drawtoimg</title>
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/skeleton.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="short icon" href="./img/logo.png">
+
+</head>
+<body>
+  <section class="home">
+
+    <div>
+      <div class="row centered toolbar">
+        <!-- <input id="hex" type="text" placeholder="Enter hex color"> -->
+        <input id="small" type="button" value="S" onclick="small()">
+        <input id="normal" type="button" value="M" onclick="normal()">
+        <input id="large" type="button" value="L" onclick="large()">
+        <input id="eraser" type="button" value="Eraser" onclick="eraser()">
+        <input id="clean" type="button" value="Clean" onclick="canvasClr()">
+        <!-- <i>Turn your drawing into a drag-and-drop image just in no time!</i> -->
+      </div>
+      <div id="paint">
+        <canvas id="draw"></canvas>
+      </div>
+      <div class="centered">
+        <input id="convert" class="bb" type="button" value="Create">
+      </div>
+      <div id="result">
+        <img id="canvasImg">
+      </div>
+    </div>
+  </section>
+  <footer class="centered">Made by <a id="footer-link" href=""><strong>Gary</strong></a></footer>
+  <script src="./js/script.js"></script>
+</body>

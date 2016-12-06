@@ -1,0 +1,35 @@
+input[type="button"]{
+  background-color: white;
+}
+input[type="button"]:hover{
+  background-color: black;
+  color: white;
+}
+/*input[type='button']:target{
+  background-color: white;
+  border: solid;
+}*/
+#footer-link{
+  text-decoration: none;
+  color: #222;
+}
+#result, #paint{
+  width: 800px;
+  height: 450px;
+  margin: 0 auto 1.5rem auto;
+  border: solid 5px;
+}
+.centered{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+#convert{
+  width: 100%;
+}
+.toolbar{
+  padding-top: 1.5rem;
+}
+footer{
+  padding-bottom: 1.5rem;
+}
