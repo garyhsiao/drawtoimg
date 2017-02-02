@@ -57,6 +57,7 @@ function eraser(){
   ctx.globalCompositeOperation="destination-out";
 }
 
+
 // Converts canvas to an image
 function convertCanvasToImage() {
   var image = document.getElementById('canvasImg');
